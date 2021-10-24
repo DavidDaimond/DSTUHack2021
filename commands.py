@@ -1,8 +1,5 @@
 # -*- coding: UTF-8 -*-
-
-import telebot
-import telebot.types as types
-import csv
+# COMMANDS FOR BOT
 import config
 import string
 
