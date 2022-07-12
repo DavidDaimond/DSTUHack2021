@@ -27,8 +27,7 @@ cherrypy.config.update({
 
 @bot.message_handler(func=commands.not_command)
 def send_admin(message):
-    bot.send_message(message.from_user.id, """Друг мой, я не общаюсь. Лучше надень маску и скинь мне фоточку)
-Спасибо, ты солнышко ❤️""")
+    bot.send_message(message.from_user.id, """Друг мой, я не общаюсь. Лучше надень маску и скинь мне фоточку)""")
 
 
 @bot.message_handler(commands=['start', 'help'])
